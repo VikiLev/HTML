@@ -13,6 +13,19 @@ body {
     
 }
 
+li {
+    list-style-type: none;
+   }
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+h6 {
+    margin: 0;
+}
+
 .header {
     position: absolute;
     border-bottom: 1px solid #A1A1A1;
@@ -118,12 +131,14 @@ body {
     
 }
 
-.img {
-    width: 90px;
-    height: 90px;
+.imgbord {
+    padding: 20px 30px;
     border: 1px solid #4985FF;
-    border-radius: 100%;
-    padding: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .services-item-title {
@@ -136,13 +151,13 @@ body {
     margin-left: 17px;
 }
 
-li {
-    list-style-type: none;
-   }
+
+
 
 .services-list-item {
     display: flex;
     justify-content: center;
+    width: 30%;
 }
 
 .services-item-description {
@@ -162,11 +177,10 @@ li {
     
 }
 
-.container2 {
+.about-list {
     display: flex; 
     margin-top: 220px;
-    /* margin-left: 405px; */
-    justify-content:center;
+    justify-content:space-between;
    
 }
 
