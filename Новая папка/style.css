@@ -480,13 +480,11 @@ h6 {
     line-height: 21px;
     text-align: center;
     color: #999999;
-
 }
 
 .footer__container {
     display: flex;
     justify-content: space-between;
-    margin-top: 155px;
     
 }
 
@@ -508,16 +506,4 @@ h6 {
     font-size: 14px;
     line-height: 22px;
     color: #999999;
-    padding-top: 30px;
-    
 }
-
-.container__list-description:before {
-    content: "> ";
-}
-
-A {
-    text-decoration: none; /* Убирает подчеркивание для ссылок */
-    color: #5F9EA0;
-   } 
-
